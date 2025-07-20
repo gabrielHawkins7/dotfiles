@@ -1,0 +1,8 @@
+require("config.lazy")
+require("config.keymap")
+require("config.options")
+require("config.lsp")
+vim.cmd("colorscheme nightfox")
+local scratch_api = require("scratch.api")
+scratch_api.createScratchFileByType("markdown", {})
+vim.cmd("PencilSoft")
