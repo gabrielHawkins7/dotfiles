@@ -14,6 +14,7 @@ return {
 		"akinsho/bufferline.nvim",
 		opts = {
 			options = {
+				separator_style = "slant",
 				themable = true,
 				offsets = {
 					{ filetype = "NvimTree", highlight = "NvimTreeNormal" },
