@@ -2,8 +2,7 @@ require("config.lazy")
 require("config.keymap")
 require("config.options")
 require("config.lsp")
-vim.cmd("colorscheme nightfox")
-vim.cmd("PencilSoft")
+vim.cmd("colorscheme catppuccin-frappe")
 
 local is_wsl = vim.fn.has("wsl") == 1
 local opt = vim.opt
