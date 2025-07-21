@@ -3,7 +3,11 @@ return {
 	{
 		"nvim-tree/nvim-tree.lua",
 		cmd = { "NvimTreeToggle", "NvimTreeFocus" },
-		opts = {},
+		opts = {
+			filters = {
+				dotfiles = true,
+			},
+		},
 	},
 
 	{
@@ -17,5 +21,10 @@ return {
 			},
 		},
 		dependencies = "nvim-tree/nvim-web-devicons",
+	},
+	{
+		"windwp/nvim-autopairs",
+		event = "InsertEnter",
+		opts = {},
 	},
 }
