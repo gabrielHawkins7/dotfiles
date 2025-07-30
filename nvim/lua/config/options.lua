@@ -7,7 +7,7 @@ opt.wrap = true
 
 ---- Important Grammar and spell check
 opt.spelllang = "en"
-opt.spell = true
+opt.spell = false
 
 -- Search
 

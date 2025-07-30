@@ -6,8 +6,7 @@ opt.smartindent = true
 opt.wrap = true
 
 ---- Important Grammar and spell check
-opt.spelllang = "en"
-opt.spell = true
+opt.spell = false
 
 -- Search
 
@@ -19,7 +18,6 @@ opt.completeopt = "menuone,noselect"
 -- Apperance
 
 opt.number = true
-opt.relativenumber = true
 opt.termguicolors = true
 opt.signcolumn = "yes"
 opt.cmdheight = 1

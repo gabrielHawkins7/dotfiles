@@ -11,3 +11,4 @@ map("n", "<leader>fe", "<cmd> NvimTreeToggle <CR>")
 
 -- buffers
 map("n", "<leader>bd", "<cmd>bd!<cr>", { desc = "Delete Buffer" })
+map("n", "<leader>bb", "<cmd>bNext<cr>", { desc = "Switch Buffer" })
