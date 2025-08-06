@@ -1,0 +1,5 @@
+#!/bin/bash
+CURRENT=$(pwd)
+cd ~/documents/notes
+NVIM_APPNAME=textvim nvim
+cd $CURRENT

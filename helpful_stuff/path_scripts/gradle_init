@@ -2,4 +2,4 @@
 
 TARGET=$(pwd)
 echo "Initializing Java Project!"
-cp -r ~/.config/dotfiles/helpful_stuff/Gradle_Init/src/* "$TARGET"
+cp -r ~/.config/mystuff/helpful_stuff/Gradle_Init/src/* "$TARGET"
